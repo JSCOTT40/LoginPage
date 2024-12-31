@@ -41,9 +41,9 @@ http://localhost:3000
 
 ## Authors
 
-Jayce Scott
-Aljeandro Gonzales-Garcia
-Dhyan Thakar
+- Jayce Scott
+- Aljeandro Gonzalez-Garcia
+- Dhyan Thakar
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
