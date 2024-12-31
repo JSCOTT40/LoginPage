@@ -17,9 +17,9 @@ This is an interactive login page built with **HTML**, **CSS**, **JavaScript**, 
 - **Express.js**: For creating the backend server and handling requests.
 
 ### How it works
-Frontend: The login form is built using HTML and styled with CSS. JavaScript is used to validate the form before submission, ensuring the user enters valid credentials.
-Backend: The backend is built with Express.js, which listens for POST requests from the login form. It checks the user credentials against the database and returns a response indicating whether the login is successful.
-Database: The database stores user information such as usernames and hashed passwords. The backend retrieves the information to validate the user's credentials.
+- Frontend: The login form is built using HTML and styled with CSS. JavaScript is used to validate the form before submission, ensuring the user enters valid credentials.
+- Backend: The backend is built with Express.js, which listens for POST requests from the login form. It checks the user credentials against the database and returns a response indicating whether the login is successful. Addtionally it also adds and updates the database passed on the creation of accounts through the login page. 
+- Database: The database stores user information such as usernames and  passwords. The backend retrieves the information to validate the user's credentials in the backend.
 ## Setup Instructions
 
 Follow these steps to set up the project on your local machine.
@@ -38,3 +38,12 @@ npm run
 ```bash
 http://localhost:3000
 ```
+
+## Authors
+
+Jayce Scott
+Aljeandro Gonzales-Garcia
+Dhyan Thakar
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
