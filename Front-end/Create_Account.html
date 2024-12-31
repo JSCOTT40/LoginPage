@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <title>Binge</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script> <!-- Pulled from Lab 8 Tutorial --> 
+    <script src="Client.js"></script>
+    
+</head>
+
+<body>
+    
+    <h1>Create Account</h1>
+    <p>Welcome to Binge. Please enter your requested Username and Password into the space below. Please enter an appropraite Username and password </p>
+    <br>
+
+    <form id="CreateForm" onsubmit="CreateClick(); return false"> <!-- we set return false to prevent a refresh on submit--> 
+        <div id = 'CreateBox'>       
+            <div class = 'input_box'>
+                <input type="text" required placeholder="Username" id="usernameCreate">
+            </div>
+            
+            <div class = 'input_box'>
+                <input type="password" required placeholder="Password" id="passwordCreate">
+            </div>
+
+            <div class = 'input_box'>
+                <input type="password" required placeholder="Reconfirm Password" id="passwordCheck">
+            </div>
+
+            <div class="Submit">
+                <button type="submit" class="SubmitVal"> Submit</button>
+            </div>
+            <p>If you already have an account click <a href="Login.html"> Here</a> to return to login screen</p> <!-- Hyper link to redirect to Login Page --> 
+        </div> 
+    </form>
+</body>
+</html>
+

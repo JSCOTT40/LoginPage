@@ -1,0 +1,84 @@
+body {
+    display: flex; 
+    background: url('Background_Login.jpg'); /* Pulled from https://unsplash.com/ this is an opensource website, all resources are free to use https://unsplash.com/license*/ 
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+
+}
+.loginBox {
+    width: 380px;
+    color: aquamarine;
+    background: gray;
+    border: solid 3px black;
+    border-radius: 80px;
+    padding: 60px 80px;
+    margin-left: 200px;
+
+}
+
+.loginBox h1{
+    color: black;
+    font-size: 24px;
+    font-family: cursive, ;
+    text-align: center;
+    
+
+
+}
+
+.loginBox .input_box {
+    width: 90%;
+    height: 10px;
+    margin: 50px 0;
+    
+
+}
+
+
+.loginBox input { 
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 7px;
+    font-size: 16px;
+    color: black;
+
+}
+
+.loginBox .login{
+    text-align: center;
+} 
+.login .LoginValue{
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 60px;
+    background-color: blue;
+    text-decoration-color: black;
+    margin-right: 70px;
+
+}
+.loginBox .NewAccount{
+    text-align: center;
+} 
+
+.Introduction{ 
+    margin-right: -510px;
+    margin-bottom: 500px;
+}
+.Introduction h1 {
+    color: blue;
+    font-size: 48px;
+    font-family: cursive;
+    font-style: italic;
+    
+    
+}
+
+.loginBox .Forgotten{
+    text-align: center;}

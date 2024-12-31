@@ -1,0 +1,36 @@
+body {
+    background-color: black; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  
+  .Contentcontainer {
+    display: flex;
+    width: 95%; 
+    height: 90%;
+
+  }
+  
+  .rightbox{
+    flex: 0.4;
+    background-color: green; 
+    padding: 10px;
+    border: solid black 2px;
+  }
+  
+  .middlebox {
+    flex: 1;
+    background-color: red; 
+    padding: 10px;
+    border: solid black 2px;
+
+  }
+  
+  .leftbox {
+    flex:0.4; 
+    background-color: blue; 
+    padding: 10px;
+    border: solid black 2px;
+  }

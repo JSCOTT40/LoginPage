@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binge</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="Client.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form id="loginForm" onsubmit="ForgottenClick(); return false;"> <!-- we set return false to prevent a refresh on submit--> 
+        <h1>Forgotten Password</h1>
+        <p>Welcome Back to Binge. Please enter your Username Below.</p>
+
+        <div class="input_box">
+            <input type="text" required id="usernameForgot" placeholder="username">
+        </div>
+        
+        <div>
+            <p id="passwordPlaceholder"></p> <!-- We have an empty element where our password will be placed-->
+        </div>
+        
+        <div class="Submit">
+            <button type="submit" class="SubmitVal">Submit</button>
+        </div>
+        
+        <br>
+        
+        <p>If you do not have an account click <a href="Login.html">Here</a> to return to the login screen</p> <!-- Hyper link to redirect to Login Page --> 
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Binge Website</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script> <!-- Pulled from Lab 8 Tutorial --> 
+    <script src="Client.js"></script>
+    <!--Created By Aljeandro Gonzalez-Garcia, Dhyan Thakkar and Jayce Scott-->
+</head>
+<body>
+    <div class="Introduction">
+        <h1> Binge</h1>
+    </div>
+    
+    <form id="loginForm" onsubmit="SubmitClick(); return false"> <!-- we set return false to prevent a refresh on submit--> 
+        
+        <div class='loginBox'>
+        
+            <h1> Login </h1>
+        
+            <div class='input_box'>
+                <input type="text" placeholder="Username" required id="usernameVAL" >
+            </div>
+        
+            <div class='input_box'>
+                <input type="password" placeholder="Password" required id="passwordVAL" >
+            </div>
+        
+            <div class="login">
+                <button type="submit" class="LoginValue">Login</button>
+            </div>
+        
+            <div class="NewAccount">
+                <a href="Create_Account.html">Create Account</a>  <!-- Hyper link to redirect to Create Account Page -->  
+            </div>
+        
+            <div class="Forgotten">
+                <a href="Forgotten.html">Forgotten Password?</a>   <!-- Hyper link to redirect to Forgotten Password Page --> 
+            </div>
+        
+        </div>
+    </form>
+
+</body>
+</html>
